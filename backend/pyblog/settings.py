@@ -26,6 +26,11 @@ PROJECT_ROOT = os.path.abspath(PROJECT_PATH)
 
 TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, 'templates'),)
 
+MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'blog/media')
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'blog/static')
+STATIC_URL = '/static/'
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
