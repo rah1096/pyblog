@@ -1,0 +1,7 @@
+Django==1.8.2
+django-forms-bootstrap==3.0.0
+django-uuslug==1.1.5
+djangorestframework==3.1.2
+Pillow==2.8.1
+python-slugify==1.1.2
+Unidecode==0.4.17
